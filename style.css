@@ -1,0 +1,137 @@
+body {
+      margin: 0%;
+      font-family: 'Yomogi', cursive;
+      color: lavender;
+      background-color: black;
+}
+h1{
+      font-size: 50px;
+
+}
+p{
+      color: rgb(238, 238, 238);
+}
+.nameHighlight{
+      color: gold;
+}
+.half-width{
+       width: 40%;
+       float: left;
+       margin-left: 5%;
+       padding-left: 2%;
+       font-size: 18px;
+
+}
+.half-width img{
+      width: 92%;
+      margin-bottom: 2px;
+}
+
+section{
+      height: 500px;
+      padding-bottom: 40px;
+      margin-bottom: 100px;
+}
+.linkedin {
+      text-decoration: none;
+      color: white;
+      background-image: linear-gradient(rgb(39, 212, 255),rgb(0, 77, 128));
+      padding: 1px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 20px;
+}
+.github {
+      text-decoration: none;
+      color: black;
+      background-image: linear-gradient(rgb(230, 230, 230),rgb(155, 155, 155));
+      padding: 1px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: 2%;
+}
+.twitter {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      background-image: linear-gradient(rgb(50, 207, 255),rgb(0, 165, 194));
+      padding: 1px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: 2%;
+}
+.resume {
+      text-decoration: none;
+      color: rgb(0, 0, 0);
+      background-image: linear-gradient(rgb(255, 136, 0),rgb(233, 158, 45));
+      padding: 3px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 30px;
+
+}
+.links {
+      margin-top: 5%;
+}
+.pp2 img{
+      width: 60%;
+      margin-bottom: 2px;
+}
+.sec2{
+      padding-right: 30px;
+
+}
+.sec2{
+      background-image: url("images/dream-bg.png");
+      background-repeat: no-repeat;
+      background-position:right;
+}
+.experince{
+      border-style: outset;
+      border-width: 1px;
+      height: 60%;
+}
+.experince p{
+      font-weight: bold;
+      color: lavender;
+}
+#frontexp {
+      border-left: 7px solid;
+      border-image: linear-gradient(rgb(94, 232, 250),rgb(0, 126, 245));
+      border-image-slice: 1;
+      background-color: black;
+}
+#backexp {
+      border-left: 7px solid;
+      border-image: linear-gradient(rgb(255, 201, 219),rgb(207, 74, 119));
+      border-image-slice: 1;
+}
+.sec3{
+      background-image: url("images/exp-bg.png");
+      background-repeat: no-repeat;
+      background-position:left;
+}
+footer{
+      text-align: center;
+      color: lavender;
+      font-size: 20px;
+      font-weight: bold;
+      border-bottom: 11px solid;
+      background-image: linear-gradient(rgb(169, 245, 255)rgb(21, 85, 145));
+}
+.aboutme{
+      padding-top: 40px;
+}
+#frontexp:hover{
+      box-shadow: 10px 10px 40px rgb(42, 134, 255);
+      border-radius: 10px;
+      height: 60%;
+}
+#backexp:hover{
+      box-shadow: 10px 10px 40px palevioletred;
+      border-radius: 10px;
+      height: 62%;
+}
+
+
