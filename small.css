@@ -107,12 +107,14 @@ section{
     border-image: linear-gradient(rgb(94, 232, 250),rgb(0, 126, 245));
     border-image-slice: 1;
     background-color: black;
+    height: 90%;
 }
 #backexp {
     border-left: 7px solid;
     border-image: linear-gradient(rgb(255, 201, 219),rgb(207, 74, 119));
     border-image-slice: 1;
     background-color: black;
+    height: 90%;
 }
 .sec3{
     background-image: url("images/exp-bg.png");
@@ -120,6 +122,7 @@ section{
     background-position:left;
 }
 footer{
+    padding-top: 130%;
     text-align: center;
     color: lavender;
     font-size: 20px;
@@ -133,17 +136,18 @@ footer{
 #frontexp:hover{
     box-shadow: 10px 10px 40px rgb(42, 134, 255);
     border-radius: 10px;
-    height: 60%;
+    height: 90%;
 }
 #backexp:hover{
     box-shadow: 10px 10px 40px palevioletred;
     border-radius: 10px;
-    height: 62%;
+    height: 90%;
 }
 .sec3 h1{
   text-align: center;
   padding-right: 6%;
   padding-bottom: 3%;
+  padding-top: 50%;
 }
 .sec1{
   border-style:solid;
