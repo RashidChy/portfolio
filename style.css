@@ -5,6 +5,34 @@ body {
       color: lavender;
       background-color: black;
 }
+
+ul {
+      list-style-type: none;
+      margin: 0;
+      padding-right: 50px;
+      overflow: hidden;
+      background-color: #333;
+      
+    }
+    
+    li {
+      float:right;
+    }
+    
+    li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      margin-left: 50px;
+    }
+    
+    li a:hover {
+      color: chartreuse;
+      font-weight: bolder;
+    }
+
 h1{
       font-size: 50px;
 
@@ -24,10 +52,9 @@ p{
 
 }
 .half-width img{
-      width: 92%;
+      width: 110%;
       margin-bottom: 2px;
 }
-
 section{
       height: 500px;
       padding-bottom: 40px;
@@ -41,6 +68,7 @@ section{
       border-radius: 5px;
       font-weight: bold;
       font-size: 20px;
+      display: inline-flex;
 }
 .github {
       text-decoration: none;
@@ -51,17 +79,12 @@ section{
       font-weight: bold;
       font-size: 20px;
       margin-left: 2%;
+      display: inline-flex;
+
+      
 }
-.twitter {
-      text-decoration: none;
-      color: rgb(0, 0, 0);
-      background-image: linear-gradient(rgb(50, 207, 255),rgb(0, 165, 194));
-      padding: 1px 10px;
-      border-radius: 5px;
-      font-weight: bold;
-      font-size: 20px;
-      margin-left: 2%;
-}
+
+
 .resume {
       text-decoration: none;
       color: rgb(0, 0, 0);
@@ -97,46 +120,116 @@ section{
 .experince p{
       font-weight: bold;
       color: lavender;
+      font-size: 15px;
 }
-#frontexp {
+.blue {
       border-left: 7px solid;
       border-image: linear-gradient(rgb(94, 232, 250),rgb(0, 126, 245));
       border-image-slice: 1;
       background-color: black;
 }
-#backexp {
+.pink {
       border-left: 7px solid;
       border-image: linear-gradient(rgb(255, 201, 219),rgb(207, 74, 119));
       border-image-slice: 1;
 }
 .sec3{
-      background-image: url("images/exp-bg.png");
-      background-repeat: no-repeat;
-      background-position:left;
+  
 }
-footer{
+
+#aboutme{
       text-align: center;
-      color: lavender;
+      margin: 10% 15%;
+      line-height: 40px;
+      
+}
+#aboutme p{
+      color: white;
       font-size: 20px;
-      font-weight: bold;
-      border-bottom: 11px solid;
-      background-image: linear-gradient(rgb(169, 245, 255)rgb(21, 85, 145));
 }
-.aboutme{
-      padding-top: 40px;
-}
-#frontexp:hover{
-      box-shadow: 10px 10px 40px rgb(42, 134, 255);
+.blue:hover{
+      box-shadow: 20px 20px 80px rgb(42, 134, 255);
       border-radius: 10px;
-      height: 60%;
+      transition: box-shadow 0.8s;
 }
-#backexp:hover{
-      box-shadow: 10px 10px 40px palevioletred;
+.pink:hover{
+      box-shadow: 20px 20px 80px palevioletred;
       border-radius: 10px;
-      height: 62%;
+      transition: box-shadow 0.8s;
 }
 }
 .sec3 h1{
       text-align: center;
       padding-bottom: 4%;
 }
+.experince{
+margin-bottom: 20px;
+height: 370px;
+}
+.set{
+    
+}
+.project{
+      text-decoration: none;
+      color: black;
+      background-image: linear-gradient(rgb(230, 230, 230),rgb(155, 155, 155));
+      padding: 1px 10px;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 20px;
+      margin-left: 2%; 
+}
+#try{
+      animation-name: example;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+}
+@keyframes example {
+      from {text-shadow: 1px 1px 2px rgb(163, 234, 255);}
+      to {text-shadow: 5px 5px 10px rgb(122, 202, 255);}
+    }
+
+    .e{ 
+      animation-name: E;
+      animation-duration: 4s;
+      animation-iteration-count: infinite;
+    }
+    @keyframes E {
+      from {text-shadow: 3px 3px 5px rgb(255, 255, 255);} 
+      to {text-shadow: 3px 3px 5px rgb(75, 168, 255);}
+    }
+    .navbar a:hover{
+      transform: rotate(360deg);
+      transition: transform 0.7s;
+    }
+
+     .github:hover{
+      transform: scale(1.2);
+      transition: transform 0.3s;
+    }
+
+    .linkedin:hover{
+      transform: scale(1.2);
+      transition: transform 0.3s;
+    }
+
+    .contact{
+          margin-bottom: 220px;
+          position: relative;
+          top: 100px;
+    }
+    .contact a{
+          font-size: 30px;
+
+    }
+    footer{
+      text-align: center;
+      color: lavender;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 1400px;
+      height: 300px;
+      background-color: rgb(22, 22, 22);
+}
+
+

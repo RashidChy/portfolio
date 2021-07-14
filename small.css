@@ -5,6 +5,30 @@
     color: lavender;
     background-color: black;
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float:none;
+    transform: translateX(-10px);
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #111;
+  }
 h1{
     font-size: 40px;
     text-align: center;
@@ -12,6 +36,7 @@ h1{
 }
 .half-width{
   text-align: center;
+  
 }
 p{
     color: rgb(238, 238, 238);
@@ -84,7 +109,8 @@ section{
     margin-bottom: 2px;
 }
 .sec2{
-    padding-right: 30px;
+    padding-right: 0px;
+    padding-bottom: 0%;
 
 }
 .sec2{
@@ -96,7 +122,8 @@ section{
 .experince{
     border-style: outset;
     border-width: 1px;
-    height: 60%;
+    height: 400px;
+
 }
 .experince p{
     font-weight: bold;
@@ -107,7 +134,7 @@ section{
     border-image: linear-gradient(rgb(94, 232, 250),rgb(0, 126, 245));
     border-image-slice: 1;
     background-color: black;
-    height: 90%;
+    height: 1000px;
 }
 #backexp {
     border-left: 7px solid;
@@ -122,13 +149,14 @@ section{
     background-position:left;
 }
 footer{
-    padding-top: 130%;
+    /* padding-top: 130%;
     text-align: center;
     color: lavender;
     font-size: 20px;
     font-weight: bold;
     border-bottom: 11px solid;
     background-image: linear-gradient(rgb(169, 245, 255)rgb(21, 85, 145));
+    margin-top: 1200px; */
 }
 .aboutme{
     padding-top: 40px;
@@ -152,8 +180,10 @@ footer{
 .sec1{
   border-style:solid;
   border-width:0px 0px 3px 0px;
-
 }
 
-   
-  }
+.sec3{
+    margin-top: 1%;
+    margin-bottom: 3500px;
+}
+}
